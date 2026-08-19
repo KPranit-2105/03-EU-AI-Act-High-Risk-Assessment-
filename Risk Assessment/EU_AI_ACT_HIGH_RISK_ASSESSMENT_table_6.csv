@@ -1,0 +1,8 @@
+﻿Metric,Target Standard,Simulated Value,Compliance Status
+Overall Accuracy,≥ 0.80,0.78,BELOW TARGET
+Precision (Positive Predictive Value),≥ 0.75,0.76,PASS
+Recall (Sensitivity / True Positive Rate),≥ 0.80,0.81,PASS
+False Positive Rate (FPR),≤ 0.15,0.19,HIGH FPR
+False Negative Rate (FNR),≤ 0.15,0.15,PASS
+F1-Score,≥ 0.78,0.784,PASS
+Expected Calibration Error (ECE),≤ 0.05,0.082,MISCALIBRATED

@@ -1,0 +1,5 @@
+﻿Phase,Duration,Focus Area,Key Deliverables,Success Criteria,Responsible Lead
+Phase 1,Weeks 1–3,Immediate Safety & UI Controls,CV Text Sanitizer Layer; 2-minute recruiter UI time lock; Blind initial scoring view.,Zero prompt injection vulnerability; recruiter CV evaluation time $\ge 2$ min.,UX Director & Security Lead
+Phase 2,Weeks 4–6,Bias Calibration & Cyber Hardening,Automated Proxy Feature Masking; Fairlearn ThresholdOptimizer calibration; WORM log archive.,Subgroup DIR $\ge 0.85$ across all protected classes; 100% log retention compliance.,Lead ML Eng & CISO
+Phase 3,Weeks 7–9,Governance & Deployer Alignment,Annex IV Tech Documentation Binder; Client AI Governance Addendums; Candidate Appeal Portal.,100% client signed addendums; complete Annex IV documentation file.,Legal Counsel & Product Mgr
+Phase 4,Weeks 10–12,Conformity Assessment & Release,Third-party compliance audit dry-run; EU Database registration draft; Formal Board Sign-off.,Clean audit report; formal sign-off on 6 Deployment Gates.,GRC Lead & AI Ethics Board

@@ -1,0 +1,10 @@
+﻿Governance Activity,Legal / Compliance,DPO / Data Protection,AI Tech Lead / ML Eng,Product Owner,HR Business Owner,Human Oversight Operator
+Risk Management System (Art. 9),A,C,R,C,C,I
+Data Governance & Bias Audit (Art. 10),C,A,R,C,C,I
+Technical Documentation (Art. 11),C,I,A / R,C,I,I
+Logging Architecture (Art. 12),I,C,A / R,C,I,I
+Transparency & Instructions (Art. 13),A,C,C,R,C,I
+Human Oversight Protocol (Art. 14),C,C,C,C,A,R
+Cybersecurity Hardening (Art. 15),I,I,A / R,C,I,I
+FRIA Execution (Art. 27),A,C,I,C,R,I
+Post-Market Monitoring (Art. 72),A,C,R,C,C,I

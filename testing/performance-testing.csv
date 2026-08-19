@@ -1,0 +1,4 @@
+﻿Actual Candidate Qualification,Predicted: Shortlisted ($\ge 75.0$),Predicted: Not Shortlisted ($< 75.0$),Total
+Actually Qualified,"2,842 (True Positives)",908 (False Negatives),"3,750"
+Actually Unqualified,748 (False Positives),"3,002 (True Negatives)","3,750"
+Total,"3,590","3,910","7,500"

@@ -1,0 +1,6 @@
+﻿Monitoring Metric,Measurement Frequency,Alert Threshold,Action Triggered Upon Breach,Responsible Role
+Population Stability Index (PSI),Weekly,$\text{PSI} > 0.10$ (Warning)  <br> $\text{PSI} > 0.25$ (Action),Alert MLOps team; freeze model auto-updates; initiate drift retraining pipeline.,Senior MLOps Engineer
+Subgroup Disparate Impact (DIR),Monthly,$\text{DIR} < 0.80$,Trigger immediate fairness re-calibration; revert to baseline model checkpoint.,AI Lead / Lead QA
+Recruiter Override Rate,Bi-weekly,Override Rate $> 35\%$ or $< 5\%$,$>35\%$: Model misaligned with job spec. $<5\%$: Automation bias rubber-stamping alert.,HR Ops Lead / Product Owner
+Parse Error Rate,Continuous,Error Rate $> 2.5\%$,Route failed CV parses to secondary OCR engine; log error pattern.,Lead ML Engineer
+Candidate Complaints Volume,Weekly,$> 10$ complaints / client / mo,Conduct human audit of candidate rejections for specific deployer.,Candidate Relations / Legal

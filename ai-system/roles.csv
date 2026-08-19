@@ -1,0 +1,9 @@
+﻿EU AI Act Article,Mandatory Provider Requirement,Implementation Control in TalentMatch AI v2.4
+Article 9,Establish & maintain a Risk Management System.,AI Risk Register (`risk/ai-risk-register.md`) & iterative evaluation.
+Article 10,Ensure high-quality data sets & bias mitigation.,"Proxy masking, synthetic fairness testing, Fairlearn threshold tuning."
+Article 11,Draw up Annex IV Technical Documentation.,Model Card & Technical Governance Binder (`model-governance.md`).
+Article 12,Enable automated logging of operational events.,CloudWatch & WORM audit log infrastructure recording inputs & outputs.
+Article 13,"Provide clear, actionable Instructions for Use.",Deployer Governance Manual & User Guidance Documentation.
+Article 14,Design structural human oversight UI features.,2-minute mandatory review time lock & blind scoring interface.
+Article 15,"Ensure accuracy, robustness, & cybersecurity.","SAST scanning, PyMuPDF text sanitizer against prompt injection."
+Article 72,Establish Post-Market Monitoring system.,Automated drift detection pipeline & deployer incident feedback loops.

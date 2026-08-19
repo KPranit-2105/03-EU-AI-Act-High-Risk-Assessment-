@@ -1,0 +1,6 @@
+﻿Raw Resume Attribute,Risk Identified,Proxy Masking Action Taken
+Candidate Name,Gender / Ethnicity Proxy,Replaced with synthetic candidate UUID (`CAND-XXXXX`).
+Graduation Year,Age Proxy,Masked; converted to total years of experience elapsed.
+University Name,Socio-economic / Prestige Bias,Categorized strictly by accredited degree level (BSc/MSc/PhD).
+Residential Address / Postal Code,Ethnic Neighborhood Proxy,Stripped; reduced to Country/State level for mobility check.
+Candidate Photo,Sex / Age / Racial Proxy,Completely discarded by document pre-parser prior to NLP.

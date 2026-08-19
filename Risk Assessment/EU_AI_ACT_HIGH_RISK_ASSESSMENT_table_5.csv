@@ -1,0 +1,9 @@
+﻿Annex IV Requirement,Documentation Artifact,Storage Path / Registry,Responsible Owner
+Point 1(a): General Description,System Architecture Spec v2.4,`/docs/architecture/system_desc_v2.4.pdf`,Lead Software Architect
+Point 1(b): Intended Purpose & Users,Intended Purpose & Operational Scope,`/docs/governance/intended_purpose.md`,Product Manager
+Point 2(a): Algorithmic Logic,NLP & XGBoost Model Specs,`/docs/models/scoring_engine_v2.4.md`,Lead ML Engineer
+Point 2(b): Data Provenance & Prep,Data Lineage & Sampling Methodology,`/docs/data/data_provenance_v2.4.pdf`,Data Governance Lead
+Point 2(c): Human Oversight Design,UX Oversight & Interface Blueprint,`/docs/ux/human_oversight_spec.pdf`,UX Director
+Point 3: Performance & Validation,Validation Audit & Fairness Metrics Report,`/docs/validation/fairness_report_v2.4.pdf`,Lead MLOps / QA
+Point 4: Risk Management File,Continuous AI Risk Register,`/docs/risk/ai_risk_register.xlsx`,GRC Manager
+Point 5: Change Management,Git Commit Hashes & Model Weights Registry,MLflow Model Registry (`models:/TalentMatch/2.4`),MLOps Engineer

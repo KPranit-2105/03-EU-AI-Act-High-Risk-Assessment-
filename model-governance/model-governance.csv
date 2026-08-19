@@ -1,0 +1,9 @@
+﻿Annex IV Requirement,Statutory Description,TalentMatch Technical Control & Location
+Annex IV 1(a),"General description of the AI system, intended purpose, and versioning.",`ai-system/system-description.md` & Model Card v2.4.1.
+Annex IV 1(b),Detailed description of elements of the system and development process.,"Architecture diagram, BERT tokenization pipeline, XGBoost HCL config."
+Annex IV 1(c),"Information on the operational logic, algorithms, and hyperparameters.","XGBoost hyperparameters (`max_depth=6`, `learning_rate=0.05`, `n_estimators=300`)."
+Annex IV 1(d),"Description of data governance, training sets, and proxy masking.",`data-governance/data-governance.md` & Spacy NER proxy masking logs.
+Annex IV 1(e),Description of human oversight measures under Article 14.,`human-oversight/human-oversight.md` & UI time lock specification.
+Annex IV 1(f),"Metrics on accuracy, robustness, and cybersecurity under Article 15.",`testing/performance-testing.md` & `cybersecurity/cybersecurity.md`.
+Annex IV 1(g),Risk management system specification under Article 9.,`risk/ai-risk-register.md` & `risk/risk-treatment-plan.md`.
+Annex IV 2,Description of changes made throughout the system lifecycle.,"MLflow artifact registry, Git commit logs, and semantic versioning history."

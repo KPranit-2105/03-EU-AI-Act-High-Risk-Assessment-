@@ -1,0 +1,7 @@
+﻿Demographic Subgroup,Sample Size ($N$),Selection Rate (%),Disparate Impact Ratio (DIR),Equalized Odds Gap (TPR Delta),Equalized Odds Gap (FPR Delta),Compliance Assessment
+Male (Baseline),"26,500",24.00%,1,—,—,Baseline
+Female,"21,200",17.80%,0.742,-12.40%,-4.20%,FAIL (Adverse Impact)
+Age < 40 (Baseline),"31,000",26.20%,1,—,—,Baseline
+Age 45+,"14,200",17.80%,0.679,-15.80%,-6.10%,FAIL (Severe Age Bias)
+Western EU Name,"35,400",25.10%,1,—,—,Baseline
+Non-Western EU Name,"12,100",16.30%,0.649,-18.10%,-7.50%,FAIL (Ethnic Proxy Bias)

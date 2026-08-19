@@ -1,0 +1,15 @@
+﻿Parameter,Specification & Architectural Detail
+System Name,TalentMatch AI Candidate Screening & Ranking Engine (v2.4)
+Provider,"TalentMatch AI B.V. (Keizersgracht 421, 1016 EK Amsterdam, Netherlands)"
+Deployer Base,150+ Enterprise HR departments and talent acquisition agencies operating within the EU
+Intended Purpose,"Ingesting job postings and jobseeker applications, extracting qualifications, scoring candidates on a 0–100 suitability index, ranking applicants, and recommending top candidates for recruiter interview shortlists."
+User Base,"Human Recruiters, Talent Acquisition Managers, HR Operations Personnel"
+Affected Individuals,Job Applicants / Natural persons applying for employment roles across EU deployer organizations
+Input Data,"Unstructured CVs/Resumes (PDF, DOCX, TXT), Cover Letters, Job Descriptions, Candidate Self-reported Application Data"
+Training Data,"5,000,000 historical job application records (2018–2024) collected across multi-sector EU employers, containing applicant resumes, job roles, interview decisions, and 2-year hire outcome indicators."
+Model Type,Hybrid Architecture: (1) Transformer-based NLP model (fine-tuned RoBERTa) for entity extraction and skill vectorization; (2) Gradient Boosted Decision Tree (XGBoost) regression model for job-fit scoring.
+Decision Output,"Overall Candidate Fit Score (0–100), Quantile Rank position, Top Skill Matches/Gaps, Local SHAP Feature Importance Explanations."
+Human Involvement,Human-in-the-Loop (HITL) model; Recruiters review ranked lists on dashboard and trigger interview invitations.
+Deployment Env.,"Multi-tenant SaaS hosted on Cloud Infrastructure (AWS EU Central 1 - Frankfurt), API-integrated into ATS platforms (Greenhouse, Workday, SAP SuccessFactors)."
+Logging & Monitoring,"PostgreSQL audit database logging inputs, model versions, outputs, recruiter overrides, and API request timestamps."
+Third-Party Deps,"Hugging Face Transformers, PyTorch, XGBoost, AWS CloudWatch, OpenAI API (used for job description summarization)."

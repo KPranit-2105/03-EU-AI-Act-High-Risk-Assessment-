@@ -1,0 +1,7 @@
+﻿Component,Technical Implementation,Primary Function,Governance Control
+Input Sanitizer,Python PyMuPDF + RegEx Pre-parser,"Sanitizes PDF text layer, strips hidden text & prompt injections.",Article 15 Cybersecurity
+Entity Extractor,Fine-tuned `dbmdz/bert-large-cased-finetuned-conll03-english`,"Extracts candidate skills, job titles, years of experience, and degrees.",Article 10 Data Quality
+Proxy Masking Engine,Spacy NER + Rule-based Masking,"Strips demographic proxies (gendered names, graduation dates, zip codes).",Article 10 Bias Mitigation
+Vector Matcher,Sentence-Transformers (`all-mpnet-base-v2`),Generates 768-dimensional embeddings of candidate skills vs job requirements.,Article 15 Accuracy
+Scoring Model,XGBoost Regressor (v1.7.3),Outputs composite score ($0.00 - 100.00$) and quantile ranking.,Article 11 Tech Documentation
+Oversight UI Engine,React / Next.js Enterprise Web Console,Enforces 2-minute mandatory review time lock & blind skill evaluation.,Article 14 Human Oversight

@@ -1,0 +1,5 @@
+﻿Monitoring Metric,Target Baseline,Alert Trigger Threshold,Automated Action Taken Upon Alert,Responsible Lead
+Embedding Drift Score,Cosine Distance $\le 0.08$,Cosine Distance $> 0.15$,Triggers automated retraining pipeline & flags drift.,MLOps Lead
+Subgroup Disparate Impact Ratio,DIR $\ge 0.823$ across all groups,DIR $< 0.80$ for any group,Circuit Breaker: Reverts deployment to prior checkpoint.,Fairness Auditor
+Recruiter Override Rate,12% – 18% override range,Override Rate $< 5\%$ or $> 35\%$,Flags deployer for automation bias / instruction misuse.,AI GRC Lead
+System Error Rate,Error Rate $< 0.1\%$,Error Rate $> 0.5\%$,Routes fallback parsing & alerts on-call engineer.,MLOps Lead

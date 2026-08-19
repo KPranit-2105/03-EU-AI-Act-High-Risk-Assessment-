@@ -1,0 +1,7 @@
+﻿Gate #,Compliance Gate Title,Targeted Obligation,Required Verification Condition,Responsible Executive,Gate Status
+Gate 1,Bias Calibration Sign-Off,Article 10 (Data & Bias),"Post-mitigation holdout test DIR $\ge 0.823$ across all female, age 45+, & non-Western subgroups.",Fairness Auditor,PASSED
+Gate 2,Human Oversight UI Deployment,Article 14 (Oversight),Deployment of mandatory 2-minute UI review lock and blind skill evaluation interface in web console.,AI GRC Lead,PASSED
+Gate 3,Cybersecurity Hardening,Article 15 (Security),Deployment of PyMuPDF text sanitizer pre-parser neutralizing 100% of white-font prompt injection test payloads.,MLOps Lead,PASSED
+Gate 4,Technical Documentation Binder,Article 11 (Annex IV),Consolidation of Annex IV Technical Documentation binder and MLflow cryptographic hashes in QMS.,Head of AI Eng,PASSED
+Gate 5,Deployer Governance Addendums,Article 26 (Deployers),Execution of EU AI Act Governance Addendums & issuance of FRIA Toolkits to all 150+ enterprise clients.,Legal Counsel,IN PROGRESS
+Gate 6,Candidate Appeal Portal,Article 13 & GDPR Art 22,Launch of Candidate Score Explanation & Re-evaluation Portal providing a 14-day human review window.,Product Manager,IN PROGRESS

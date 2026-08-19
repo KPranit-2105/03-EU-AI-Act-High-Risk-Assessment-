@@ -1,0 +1,11 @@
+﻿Risk ID,Inherent Score,Treatment Strategy,Specific Technical & Operational Control,Targeted EU AI Act Article,Lead Owner,Target Completion,Residual Score & Level,Sign-off Status
+AIR-001,20 (Critical),Technical Mitigation,"Implement proxy masking (strip graduation year, gendered names) and Fairlearn demographic parity calibration.",Article 10 (Data & Bias),Fairness Auditor,2026-09-15,6 (Medium),Approved (Gate 1)
+AIR-002,20 (Critical),Operational & UI Control,Deploy mandatory 2-minute UI interaction timer lock and blind initial skill scoring interface.,Article 14 (Human Oversight),AI GRC Lead,2026-09-30,6 (Medium),Approved (Gate 2)
+AIR-003,16 (High),Technical Control,Deploy PyMuPDF text sanitizer pre-parser to strip zero-font hidden text and prompt injection payloads.,Article 15 (Cybersecurity),MLOps Lead,2026-08-31,3 (Low),Approved (Gate 3)
+AIR-004,12 (High),Technical Control,Implement automated monthly embedding vector drift monitoring in Datadog with automated retraining triggers.,Article 15 (Accuracy),MLOps Lead,2026-10-15,3 (Low),Approved
+AIR-005,12 (High),Technical Control,Apply differential privacy ($\epsilon=1.5$) during BERT fine-tuning and anonymize vector space embeddings.,Article 10 (Data Privacy),Head of AI Eng,2026-10-31,3 (Low),Approved
+AIR-006,20 (Critical),Legal & Technical Control,Contractually ban automated rejection triggers in SLA and disable API hooks for automated emails.,Article 26 (Deployer Rules),Legal Counsel,2026-09-01,4 (Low),Approved (Gate 5)
+AIR-007,16 (High),Product Feature,Integrate SHAP feature impact visualizer in recruiter UI and launch candidate score explanation web portal.,Article 13 (Transparency),Product Manager,2026-11-15,4 (Low),Approved (Gate 6)
+AIR-008,8 (Medium),Infra Redundancy,Deploy active-active multi-region AWS cloud infrastructure (`eu-west-1` and `eu-central-1`).,Article 15 (Robustness),MLOps Lead,2026-08-15,3 (Low),Approved
+AIR-009,9 (Medium),Architecture Control,Eliminate external runtime LLM API dependencies by containerizing local BERT models on AWS EKS.,Article 15 (Technical Security),Head of AI Eng,2026-08-15,2 (Low),Approved
+AIR-010,8 (Medium),Technical Control,Enforce candidate submission rate limits (max 3 CV updates/day) and centroid anomaly filtering.,Article 15 (Cybersecurity),MLOps Lead,2026-09-15,2 (Low),Approved

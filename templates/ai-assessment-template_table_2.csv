@@ -1,0 +1,13 @@
+﻿EU AI Act Requirement,Statutory Article,Internal Control ID,Implementation Status,Evidence Reference
+Risk Management System,Article 9,`CTL-AI-01`,Implemented / Partial / Planned,
+Data Governance & Quality,Article 10,`CTL-AI-02`,,
+Bias Detection & Mitigation,Article 10,`CTL-AI-03`,,
+Technical Documentation,Article 11 & Annex IV,`CTL-AI-04`,,
+Automated Record-Keeping,Article 12,`CTL-AI-05`,,
+Transparency & Instructions,Article 13,`CTL-AI-06`,,
+Human Oversight Mechanisms,Article 14,`CTL-AI-07`,,
+Accuracy & Robustness,Article 15,`CTL-AI-08`,,
+Cybersecurity Resilience,Article 15,`CTL-AI-09`,,
+Deployer Governance SLA,Article 26,`CTL-AI-10`,,
+Post-Market Monitoring,Article 72,`CTL-AI-11`,,
+Serious Incident Reporting,Article 73,`CTL-AI-12`,,
