@@ -23,12 +23,12 @@ This project operationalizes the requirements of **Regulation (EU) 2024/1689 (EU
 │                    TALENTMATCH AI COMPLIANCE SCORECARD                               │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
-│   SYSTEM NAME          TalentMatch AI Candidate Screening & Ranking Engine v2.4       │
+│   SYSTEM NAME          TalentMatch AI Candidate Screening & Ranking Engine v2.4      │
 │   PROVIDER             TalentMatch AI B.V. (Amsterdam, Netherlands)                  │
 │   DEPLOYER BASE        150+ Enterprise HR Departments across EU Member States        │
 │   CLASSIFICATION       HIGH-RISK AI SYSTEM (Article 6(2) & Annex III, Section 4(a))  │
-│   ART. 6(3) EXCEPTION  REJECTED (Statutory bar: Candidate profiling performed)   │
-│   ART. 5 PROhibitions  CLEARED (No emotion recognition or biometric categorization)│
+│   ART. 6(3) EXCEPTION  REJECTED (Statutory bar: Candidate profiling performed)       │
+│   ART. 5 PROhibitions  CLEARED (No emotion recognition or biometric categorization)  │
 │   DECISION             GO WITH CONDITIONS (6 Mandatory Deployment Gates Required)    │
 │                                                                                      │
 └──────────────────────────────────────────────────────────────────────────────────────┘
